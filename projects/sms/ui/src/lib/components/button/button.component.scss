@@ -1,0 +1,69 @@
+@import "../../assets/variables";
+
+:host {
+  margin: 5px 8px;
+  padding: 0;
+  border: none;
+
+  button {
+    padding: 10px 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    color: $text-04;
+    transition: 0.1s all ease-in-out;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .error {
+    background-color: $support-01;
+
+    &:hover {
+      background-color: #fc404a;
+    }
+  }
+
+  .success {
+    background-color: $support-02;
+    color: $text-03;
+
+    &:hover {
+      background-color: #3caf5c;
+    }
+  }
+
+  .warning {
+    background-color: $support-03;
+    color: $text-03;
+
+    &:hover {
+      background-color: #e8ba11;
+    }
+  }
+
+  .info {
+    background-color: $support-04;
+
+    &:hover {
+      background-color: #0f8adb;
+    }
+  }
+
+  .default {
+    background-color: $ui-04;
+
+    &:hover {
+      background-color: $hover-secondary;
+    }
+  }
+
+  button:disabled,
+  button[disabled] {
+    cursor: not-allowed;
+    background: $disabled-01;
+    color: $disabled-03;
+  }
+}

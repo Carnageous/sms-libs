@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@sms/ui": [
+        "dist/sms/ui"
+      ],
+      "@sms/ui/*": [
+        "dist/sms/ui/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

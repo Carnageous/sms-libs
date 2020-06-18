@@ -1,0 +1,71 @@
+/* UI general */
+$ui-background: #161616; // default UI background
+$ui-01: #262626; // Primary container, secondary page
+$ui-02: #393939; // Primary page, secondary container
+$ui-03: #393939; // subtle border, tertiary container
+$ui-04: #6F6F6F; // element contrast, medium contrast border
+$ui-05: #F4F4F4; // element contrast, Emphasis elements
+$ui-nav: #000000;
+$overlay-01: #161616; // Background overlay, 70% contrast
+/* interactive */
+$interactive-primary: #0075BE; // Primary interactive
+$interactive-secondary: #6F6F6F; // Secondary interactive
+$interactive-tertiary: #FFFFFF; // contrast, tertiary button
+$interactive-accent: #1192E8; // contrast, accent, selected
+/* Text */
+$text-01: #F4F4F4; // primary text, headers, hover text for $text-02
+$text-02: #C6C6C6; // Secondary text, input lables
+$text-03: #6F6F6F; // Placeholder text
+$text-04: #FFFFFF; // Text on interactive
+$text-05: #8D8D8D; // Tertiary text, help text
+$link-01: #33B1FF; // Primary links, Ghost button
+/* Icons */
+$icon-01: #F4F4F4; // Primary icons
+$icon-02: #C6C6C6; // Secondary icons
+$icon-03: #FFFFFF; // Icons on interactive colors, Icons non-ui colors
+/* Fields */
+$field-01: #262626; // Default input fields, field color for $ui-background
+$field-02: #393939; // Field color for $ui-02-background
+/* Inverse */
+$inverse-01: #161616; // Inverse text color
+$inverse-02: #F4F4F4; // High contrast backgrounds
+$inverse-link: #0075BE; // link on $inverse-02
+/* Support */
+$support-01: #FA4D56; // Error
+$support-02: #42BE65; // Success
+$support-03: #F1C21B; // Warning
+$support-04: #1192E8; // Info
+$inverse-support-01: #E3000F; // Error high contrast
+$inverse-support-02: #24A148; // Success high contrast
+$inverse-support-03: #F1C21B; // Warning high contrast
+$inverse-support-04: #00539A; // Info high contrast
+$danger: #E3000F; // danger button
+/* Focus */
+$focus: #FFFFFF; // Focus border, Focus underline
+$inverse-focus-ui: #0075BE; // Focus on high contrast
+/* Hover */
+$hover-primary: #00539A; // $interactive-01 hover
+$hover-primary-text: #003A6D; // $interactive-01 text hover
+$hover-secondary: #606060; // $interactive-02 hover
+$hover-tertiary: #F4F4F4; // $interactive-03 hover, $inverse-01 hover
+$hover-ui: #353535; // $ui-02 hover, $ui-02 hover, Transparent background hover
+$hover-row: #353535; // Row hover
+$hover-danger: #BA1B23; // Danger hover, support-01 hover
+$hover-selected-ui: #4C4C4C; // Selected row hover
+$inverse-hover-ui: #E5E5E5; // Hover for $inverse-02
+/* Active */
+$active-primary: #003A6D; // $interactive-01 active
+$active-secondary: #393939; // $interactive-02 active, $inverse-01 active
+$active-tertiary: #C6C6C6; // $interactive-03 active
+$active-ui: #525252; // $ui-01 active, $ui-02 active
+$active-danger: #750E13; // Danger active, $support-01 active
+/* Selected */
+$selected-ui: #393939; // Selected UI elements
+/* Highlight */
+$highlight: #012749; // $interactive-01 highlight
+/* Visited */
+$visited-link: #BE95FF; // Visited links
+/* Disabled */
+$disabled-01: #262626; // Disabled
+$disabled-02: #393939; // Disabled elements on $disabled-01, Disabled text on $disabled-01
+$disabled-03: #6F6F6F; // Disabled text on $disabled-02, Disabled icons on $disabled-02
